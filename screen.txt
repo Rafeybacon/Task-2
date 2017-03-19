@@ -1,0 +1,52 @@
+Hello I have found that you are having a problem with your screen!
+I have compiled some likely causes of the problem along with solutions to them,
+hope this solves your problem!
+
+***Problem One***
+
+App causing screen to go blank
+
+***Solution***
+
+Turn the device off.
+Press and hold the Power key.
+release the Power key.
+Immediately after releasing the Power key, press and hold the Volume down key.
+Continue to hold the Volume down key until the device finishes restarting.
+Safe mode will display in the bottom left corner of the screen.
+Release the Volume down key when you see Safe Mode.
+
+From here proceed to uninstall the new app that as it is likely the cause of the problem.
+However if the problem presists then:
+
+Turn off the device.
+Press and hold the following three buttons at the same time: Volume Up key, Home key, and Power key.
+When the phone vibrates, release the Power key but continue to press and hold the Volume Up key and the Home key.
+When the System Recovery screen appears, release the Volume Up and Home keys.
+Press the Volume down key several times key to highlight ‘wipe data / factory reset.’
+Press Power button to select.
+Press the Volume down key until ‘Yes — delete all user data’ is highlighted.
+Press Power button to select and start the master reset.
+When the master reset is complete, ‘Reboot system now’ is highlighted.
+Press the Power key to restart the device.
+
+***Problem Two***
+
+Screen flickering
+
+***Solution***
+
+The flickering is likely caused by liquid that has managed to make its way inside,
+the best thing to do is contact support and request to have it sent back for repairs
+for if this is left to long then the internal components can become damaged further.
+
+***Problem Three***
+
+Screen is multicoloured and is unresponsive
+
+***Solution***
+
+The screen is broken. This is one example of a “bleeding” display. 
+Try calling your phone and if it can receive it, then the problem is just with its display. 
+Screen replacement is necessary to make it work again. 
+If, however, it couldn’t receive your call, there might be another hardware issue. Either way you need a technician.

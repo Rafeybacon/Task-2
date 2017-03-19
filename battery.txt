@@ -1,0 +1,42 @@
+Hello I have found that you are having a problem with your battery.
+I have compiled some likely causes of the problem along with solutions to them,
+hope this solves your problem!
+
+***Problem One***
+
+Battery drains very quick
+
+***Solution***
+
+MAKE SURE TO BACK UP FILES BEFORE
+
+turn off the device.
+Press and hold the following three buttons at the same time: Volume Up key, Home key, and Power key.
+When the phone vibrates, release the Power key but continue to press and hold the Volume Up key and the Home key.
+When the System Recovery screen appears, release the Volume Up and Home keys.
+Press the Volume Down key to highlight wipe cache partition.
+Press the Power key to select.
+When the wipe cache partition is complete, Reboot system now is highlighted.
+Press the Power key to restart the device.
+
+***Problem Two**
+
+Battery is overheating
+
+***Solution**
+
+Don’t put your device in the place with too much heat, such as a car dashboard. Your car dashboard gets strong sunlight directly. 
+If the weather is too hot outside and you find the device get hot as well, bring your device to the shade. 
+Let it cool down a bit before you start using it again. 
+No matter how hot the iPhone is, don’t put it in a refrigerator. Let the device cool gradually.
+
+If the device gets hot while charging, then stop this straight away.
+Observe what happens, if the issue stops then you need to try a different cable or plug.
+However if this issue still continues then you'll need to contact support and have a new bettery sent to you as the old battery
+is dying and so getting hot very quicky.
+
+Third party accessories may cause some common issues on a device,
+such as battery life problem and overheating issue. 
+The design and material of the case can cause the problem. 
+Remove the case and leave it like that until the phone cools down. 
+Once your device cools down, you can use it again.
