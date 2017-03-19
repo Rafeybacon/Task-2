@@ -4,6 +4,7 @@ yes = ['yes', 'y'] #Store values for the program to recognise a yes response
 no = ['no', 'n'] #Store values for the program to recognise a no response
 screen_problem = ['screen', 'display', 'fuzzy', ] #Store keywords for the program to recognise a screen problem
 battery_problem = ['battery', 'overheating', 'charging'] #Store keywords for the program to recognise a battery problem
+water_problem = ['water', 'moisture', 'wet']
 
 end = False #Variable controls whether program is finished or not
 
@@ -36,6 +37,11 @@ def menu(): #Function that contains the main logic of the program
             if x in usr_inp: #If values in battery_problem are in users input call battery() function
                 battery()
                 break;
+                
+        for x in water_problem:
+            if x in usr_inp:
+                water()
+                break;
 
         for x in battery_problem or screen_problem:
             if x not in usr_inp:
@@ -43,11 +49,27 @@ def menu(): #Function that contains the main logic of the program
 
 
 def screen(): #Function for handling opening and reading text file with solution to screen problem
-    finish = False
-    screen_text = open('screen.txt', 'r') #Opening screen.txt and reading it
+    screen_text = open('screen.txt', 'r')
     
-    for line in screen_text: #prints every line in the text file
+    for line in screen_text:
         print(line)
+        
+    check()
+    
+def battery(): #Function for handling opening and reading text file with solution to battery problem
+    battery_text = open('battery.txt', 'rr')
+    
+    for line in battery_text:
+        print(line)
+        
+    check()
+
+                
+def water():
+    
+    
+def check():
+    finish = False
 
     while not finish:
 
@@ -64,46 +86,30 @@ def screen(): #Function for handling opening and reading text file with solution
 
         elif usr_inp in no: #If problem isn't solved advise user to contact support
              print('That is unfortunate!')
-             print('It is recommended that you contact support in order to get further support')
+             print('There must be something else!')
+             usr_inp = str(input('Does your device have a virus? '))
 
-             usr_inp = str(input('Would you like to return to the start? ')) #Ask user if they'd like to return to start
+             if usr_inp in yes:
+                 print('Please follow the instructions that will be provided in order to fix the problem...')
+                 virus_text = open('virus.txt', 'r')
+                 for line in virus_text:
+                    print(line)
+                    virus_text.close()
+                usr_inp = str(input('Would you like to return to the start? '))
+                if usr_inp in yes:
+                    finish = true:
+                elif usr_inp in no:
+                    sys.exit('Exiting..')
 
-             if usr_inp in no: #If they don't call exit() function
-                  sys.exit('Exiting...')
-             elif usr_inp in yes: #If they do return them to start of loop
-                 finish = True
+            elif usr_inp in no:
+                print('Unfortunetly there is nothing more I can do!')
+                usr_inp = str(input('Would you like to return to the start? '))
 
+                if usr_inp in no: #If they don't call exit() function
+                    sys.exit('Exiting...')
+                elif usr_inp in yes: #If they do return them to start of loop
+                    finish = True
 
-def battery(): #Function for handling opening and reading text file with solution to battery problem
-    finish = False
-    battery_text = open('battery.txt', 'r') #Opening battery.txt and reading it
-
-    for line in battery_text: #prints every line in the text file
-        print(line)
-        
-    while not finish:
-        
-        usr_inp = str(input('Has the problem been solved? ')) #Checking if users problem is solved
-
-        if usr_inp in yes: #If problem is solved ask user if they want to return to start
-            print('Great!')
-            usr_inp = str(input('Would you like to return to the start? '))
-
-            if usr_inp in no: #If they dont call exit() function and program exits
-                sys.exit('Exiting...')
-            elif usr_inp in yes: #If they do they are retruned to the beginning of the loop
-                end = True
-
-        elif usr_inp in no: #If problem isn't solved advise user to contact support
-            print('That is unfortunate!')
-            print('It is recommended that you contact support in order to get further support')
-
-            usr_inp = str(input('Would you like to return to the start? ')) #Ask user if they'd like to return to start
-
-            if usr_inp in no: #If they don't call exit() function
-                sys.exit('Exiting...')
-            elif usr_inp in yes: #If they do return them to start of loop
-                end = True
 
 
 menu() #calls the menu() function to start the program
