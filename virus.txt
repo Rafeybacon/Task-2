@@ -1,0 +1,14 @@
+Hello, you have stated you potentially have a virus.
+I will guide you on how you can cure your device of the device.
+
+STEP 1 - Uninstall the malicious app(s)
+go to the Settings menu, then click on Apps or Application manager
+ouch the app you’d like to uninstall.This won’t start the app, but will open up the program’s App Info screen. 
+If the app is currently running press the Force stop button. 
+Next we will clear the cache and data, and we will uninstall the unwanted app. 
+A confirmation dialog should be displayed for the malicious app, click on “OK” to remove the malicious app from your 
+device.
+
+Step 2 - Restart your device
+In order to ensure that nothing from the app is left you need to restart your device. 
+Once you've restarted your device the app should be 100% cleared and off your device.
