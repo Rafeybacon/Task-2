@@ -57,7 +57,7 @@ def screen(): #Function for handling opening and reading text file with solution
     check()
     
 def battery(): #Function for handling opening and reading text file with solution to battery problem
-    battery_text = open('battery.txt', 'rr')
+    battery_text = open('battery.txt', 'r')
     
     for line in battery_text:
         print(line)
@@ -66,6 +66,12 @@ def battery(): #Function for handling opening and reading text file with solutio
 
                 
 def water():
+    water_problem = opne('water.txt', 'r')
+    
+    for line in water_problem:
+        print(line)
+        
+    check()
     
     
 def check():
